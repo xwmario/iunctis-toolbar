@@ -13,7 +13,7 @@ export default
           id: "titrenews_ui_button",
           group: "extras",
           icon: "newspaper-o",
-          perform: e => e.applySurround('[t]', '[/t]<hr>', 'Titre')
+          perform: e => e.applySurround('[t]', '[/t]<hr>', 'titrenews_ui_default_text')
         });
       });
       
@@ -22,7 +22,7 @@ export default
           id: "spoiler_ui_button",
           group: "extras",
           icon: "eye-slash",
-          perform: e => e.applySurround('[spoiler]', '[/spoiler]', 'Texte')
+          perform: e => e.applySurround('[spoiler]', '[/spoiler]', 'spoiler_ui_default_text')
         });
       });
     }
