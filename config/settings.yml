@@ -1,4 +1,4 @@
 plugins:
-  spoiler_ui_enabled:
+  iunctistlb_ui_enabled:
     default: true
     client: true
