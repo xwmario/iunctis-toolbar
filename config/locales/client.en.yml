@@ -1,5 +1,7 @@
 en:
   js:
     composer:
-      titrenews_ui_button_title: "Titre"
-      spoiler_ui_button_title: "Utiliser le spoiler"
+      titrenews_ui_button_title: "Utiliser la mise en page d'un titre"
+      titrenews_ui_default_text: "Titre"
+      spoiler_ui_button_title: "Mettre un texte en spoiler"
+      spoiler_ui_default_text: "Texte"
