@@ -4,4 +4,4 @@
 # authors: Matthew Wilkin
 # url: https://github.com/iunctis/iunctis-toolbar
 
-enabled_site_setting :spoiler_ui_enabled
+enabled_site_setting :iunctistlb_ui_enabled
