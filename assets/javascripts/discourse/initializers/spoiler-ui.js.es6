@@ -11,7 +11,7 @@ export default
       onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "spoiler_ui_button",
-          group: "extras",
+          group: "insertions",
           icon: "eye-slash",
           perform: e => e.applySurround('[spoiler]', '[/spoiler]', 'spoiler_ui_default_text')
         });
