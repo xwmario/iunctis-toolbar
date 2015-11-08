@@ -19,3 +19,5 @@ en:
       details_ui_default_text: "Texte caché"
       spoiler_ui_button_title: "Mettre un texte en spoiler"
       spoiler_ui_default_text: "Texte"
+      retourligne_ui_button_title: "Passer à la ligne"
+      retourligne_ui_default_text: ""
