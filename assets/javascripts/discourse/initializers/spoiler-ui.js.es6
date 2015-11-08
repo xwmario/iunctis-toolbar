@@ -12,7 +12,7 @@ export default
         toolbar.addButton({
           id: "titrenews_ui_button",
           group: "extras",
-          icon: "newspaper-o ",
+          icon: "newspaper-o",
           perform: e => e.applySurround('[t]', '[/t]<hr>', 'Titre')
         });
       });
