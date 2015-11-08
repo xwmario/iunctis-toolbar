@@ -19,6 +19,15 @@ export default
       
       onToolbarCreate(toolbar => {
         toolbar.addButton({
+          id: "ajoutimage_ui_button",
+          group: "extras",
+          icon: "picture-o",
+          perform: e => e.applySurround('[img]', '[/img]', 'ajoutimage_ui_default_text')
+        });
+      });
+      
+      onToolbarCreate(toolbar => {
+        toolbar.addButton({
           id: "spoiler_ui_button",
           group: "extras",
           icon: "eye-slash",
