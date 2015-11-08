@@ -1,6 +1,6 @@
 # name: iunctis-toolbar
 # about: Ajout de boutons sur l'éditeur
-# version: 0.2
+# version: 1.0
 # authors: Matthew Wilkin et Steven
 # url: https://github.com/iunctis/iunctis-toolbar
 
