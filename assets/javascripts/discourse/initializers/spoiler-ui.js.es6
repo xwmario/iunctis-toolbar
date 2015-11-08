@@ -10,6 +10,15 @@ export default
     if (siteSettings.spoiler_ui_enabled) {
       onToolbarCreate(toolbar => {
         toolbar.addButton({
+          id: "titrenews_ui_button",
+          group: "extras",
+          icon: "newspaper-o ",
+          perform: e => e.applySurround('[t]', '[/t]<hr>', 'titrenews_ui_default_text')
+        });
+      });
+      
+      onToolbarCreate(toolbar => {
+        toolbar.addButton({
           id: "spoiler_ui_button",
           group: "extras",
           icon: "eye-slash",
