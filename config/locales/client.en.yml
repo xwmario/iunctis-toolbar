@@ -3,5 +3,7 @@ en:
     composer:
       titrenews_ui_button_title: "Utiliser la mise en page d'un titre"
       titrenews_ui_default_text: "Titre"
+      ajoutimage_ui_button_title: "Ajouter une image"
+      ajoutimage_ui_default_text: "http://"
       spoiler_ui_button_title: "Mettre un texte en spoiler"
       spoiler_ui_default_text: "Texte"
