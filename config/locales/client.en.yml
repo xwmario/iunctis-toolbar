@@ -10,7 +10,7 @@ en:
       floatl_ui_button_title: "Ajouter du contenu à gauche"
       floatl_ui_default_text: "Image ou Texte"
       centrer_ui_button_title: "Centrer"
-      centrer_ui_default_text: "Texte"
+      centrer_ui_default_text: ""
       aligndroite_ui_button_title: "Aligner à droite"
       aligndroite_ui_default_text: "Texte"
       justifier_ui_button_title: "Justifier un texte"
