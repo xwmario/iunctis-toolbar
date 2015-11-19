@@ -67,7 +67,7 @@ export default
           id: "justifier_ui_button",
           group: "extras",
           icon: "align-justify",
-          perform: e => e.applySurround('<div align="justify">', '<div>', 'justifier_ui_default_text')
+          perform: e => e.applySurround('[justify]', '[/justify]', 'justifier_ui_default_text')
         });
       });
       
