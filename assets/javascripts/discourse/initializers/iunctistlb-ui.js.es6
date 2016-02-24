@@ -5,7 +5,7 @@ function priorToApi(container)
 {
   const siteSettings = container.lookup('site-settings:main');
 
-  if (siteSettings.spoiler_ui_enabled) {
+  if (siteSettings.iunctistlb_ui_enabled) {
       onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "titrenews_ui_button",
@@ -102,7 +102,7 @@ function initializePlugin(api)
 {
   const siteSettings = api.container.lookup('site-settings:main');
 
-  if (siteSettings.spoiler_ui_enabled) {
+  if (siteSettings.iunctistlb_ui_enabled) {
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
           id: "titrenews_ui_button",
