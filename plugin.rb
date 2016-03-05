@@ -4,6 +4,8 @@
 # authors: Matthew Wilkin et Steven
 # url: https://github.com/iunctis/iunctis-toolbar
 
-register_asset "javascripts/iunctis_bbcode.js", :server_side
-register_asset 'stylesheets/iunctistlb.scss'
 enabled_site_setting :iunctistlb_ui_enabled
+
+register_asset "javascripts/iunctis_bbcode.js", :server_side
+
+register_asset 'stylesheets/iunctistlb.scss'
