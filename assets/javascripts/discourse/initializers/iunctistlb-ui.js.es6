@@ -74,7 +74,7 @@ function priorToApi(container)
           id: "details_ui_button",
           group: "extras",
           icon: "exclamation-triangle",
-          perform: e => e.applySurround('<details><summary>Texte visible</summary>', '</details>', 'details_ui_default_text')
+          perform: e => e.applySurround('<details><summary>Hidden</summary>', '</details>', 'details_ui_default_text')
         });
       });
       
